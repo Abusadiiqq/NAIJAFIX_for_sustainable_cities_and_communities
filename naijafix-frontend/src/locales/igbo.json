@@ -1,0 +1,71 @@
+{
+  "app": {
+    "title": "NaijaFix - Onye Nchọpụta Okwu Obodo",
+    "description": "Kọọ ma soro nsogbu obodo gafee Naijiria",
+    "tagline": "Ime Naijiria Ka O Mma, Otu Mkpesa N'otu Oge"
+
+  },
+  "hero": {
+    "title": "Kọọ Okwu Obodo na Naijiria",
+    "subtitle": "Nyere aka mee obodo gị ka ọ dị mma site n'ịkọ okwu ndị chọrọ nlebara anya",
+    "reportButton": "📢 Kọọ Okwu Ọhụrụ",
+    "stats": "Mkpesa Obodo"
+  },
+  "report": {
+    "create": "Mepụta Mkpesa Ọhụrụ",
+    "title": "Aha Okwu",
+    "description": "Nkọwa",
+    "category": "Otu",
+    "location": "Ebe",
+    "area": "Mpaghara/Okporoámmá",
+    "lga": "LGA",
+    "state": "Steeti",
+    "status": "Ọnọdụ",
+    "priority": "Ihe Kachasị Mkpa",
+    "submit": "Nyefee Mkpesa",
+    "cancel": "Kagbuo"
+  },
+  "buttons": {
+    "edit": "Dezie",
+    "delete": "Hichapụ",
+    "save": "Chekwaa",
+    "update": "Melite"
+  },
+  "messages": {
+    "noReports": "Enweghị mkpesa ọ bụla. Bụrụ onye mbụ kọọrọ okwu n'obodo gị!",
+    "loading": "Na-ebunye...",
+    "error": "Njehie na-ebunye data"
+  },
+  "language": {
+    "english": "Bekee",
+    "hausa": "Hausa", 
+    "igbo": "Igbo",
+    "yoruba": "Yoruba"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "reports": "Mkpesa",
+    "createReport": "Mepụta Mkpesa",
+    "statistics": "Ọnụọgụ",
+    "language": "Asụsụ"
+  },
+  "dashboard": {
+    "welcome": "Nnọọ",
+    "subtitle": "Kọọ ma soro nsogbu obodo gafee steeti 36 nke Naijiria",
+    "quickActions": "Ọrụ Ngwa Ngwa",
+    "recentReports": "Mkpesa Na-adịbeghị Anya",
+    "viewAll": "Lelee Mkpesa Nile",
+    "noReports": "Enweghị Mkpesa Ọ bụla",
+    "createFirstReport": "Mepụta mkpesa izizi n'obodo gị!",
+    "createReport": "Mepụta Mkpesa"
+  },
+  "sidebar": {
+    "dashboardDesc": "Nchịkọta na ọrụ ngwa ngwa",
+    "reportsDesc": "Lelee mkpesa obodo niile", 
+    "createReportDesc": "Kọọ okwu ọhụrụ",
+    "statisticsDesc": "Nchịkọta na nghọta",
+    "quickStats": "Ọnụọgụ Ngwa Ngwa",
+    "support": "Nkwado Obodo",
+    "supportDesc": "Na-arụkọ ọrụ ọnụ maka obodo ka mma"
+  }
+}

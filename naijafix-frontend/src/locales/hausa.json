@@ -1,0 +1,70 @@
+{
+  "app": {
+    "title": "NaijaFix - Mai Rahoto Matsalolin Al'umma", 
+    "description": "Ka ba da rahoto kuma ka lura da matsalolin al'umma a duk faɗin Najeriya",
+    "tagline": "Ana Kyautata Najeriya, Rahoto ɗaya a Lokaci"
+  },
+  "hero": {
+    "title": "Ba da Rahoton Matsalolin Al'umma a Najeriya",
+    "subtitle": "Ka taimaka kyautata al'ummarka ta hanyar ba da rahoton matsalolin da suke buƙatar kulawa",
+    "reportButton": "📢 Sabon Rahoto",
+    "stats": "Rahotannin Al'umma"
+  },
+  "report": {
+    "create": "Ƙirƙiri Sabon Rahoto",
+    "title": "Take na Matsala",
+    "description": "Bayani",
+    "category": "Rukuni",
+    "location": "Wuri",
+    "area": "Yanki/Titi",
+    "lga": "Karamar Hukuma",
+    "state": "Jiha",
+    "status": "Matsayi",
+    "priority": "Fifiko",
+    "submit": "Ƙaddamar da Rahoto",
+    "cancel": "Soke"
+  },
+  "buttons": {
+    "edit": "Gyara",
+    "delete": "Share", 
+    "save": "Ajiye",
+    "update": "Sabuntawa"
+  },
+  "messages": {
+    "noReports": "Babu rahotanni tukuna. Ka zama na farko don ba da rahoto game da wata matsala a cikin al'ummarka!",
+    "loading": "Ana loda...",
+    "error": "Kuskure yana loda bayanai"
+  },
+  "language": {
+    "english": "Turanci",
+    "hausa": "Hausa", 
+    "igbo": "Igbo",
+    "yoruba": "Yaraba"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "reports": "Rahotanni",
+    "createReport": "Ƙirƙiri Rahoto",
+    "statistics": "Ƙididdiga",
+    "language": "Harshe"
+  },
+  "dashboard": {
+    "welcome": "Barka da zuwa",
+    "subtitle": "Ka ba da rahoto kuma ka lura da matsalolin al'umma a cikin jihohi 36 na Najeriya",
+    "quickActions": "Ayyuka Maimaitawa",
+    "recentReports": "Rahotanni na Kwanan Nan",
+    "viewAll": "Duba Duk Rahotanni",
+    "noReports": "Babu Rahotanni Tukuna",
+    "createFirstReport": "Ƙirƙiri rahoton farko a cikin al'ummarka!",
+    "createReport": "Ƙirƙiri Rahoto"
+  },
+  "sidebar": {
+    "dashboardDesc": "Dubawa da ayyuka maimaitawa",
+    "reportsDesc": "Duba duk rahotannin al'umma", 
+    "createReportDesc": "Ba da rahoton sabuwar matsala",
+    "statisticsDesc": "Kididdiga da fahimta",
+    "quickStats": "Ƙididdiga Maimaitawa",
+    "support": "Tallafin Al'umma",
+    "supportDesc": "Aiki tare don ingantattun al'umma"
+  }
+}

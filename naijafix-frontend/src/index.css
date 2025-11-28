@@ -1,0 +1,164 @@
+/* src/index.css */
+@import "tailwindcss";
+
+/* Nigerian Theme Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f0f9f4 0%, #ffffff 50%, #f0f9f4 100%);
+  min-height: 100vh;
+}
+
+.naija-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-left: 4px solid #008753;
+  transition: all 0.3s ease;
+}
+
+.naija-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 135, 83, 0.2);
+}
+
+/* Status classes */
+.status-pending {
+  background-color: #fef3c7;
+  color: #92400e;
+  border-color: #f59e0b;
+}
+
+.status-in-progress {
+  background-color: #dbeafe;
+  color: #1e40af;
+  border-color: #3b82f6;
+}
+
+.status-resolved {
+  background-color: #d1fae5;
+  color: #065f46;
+  border-color: #10b981;
+}
+
+/* Priority classes */
+.priority-urgent {
+  background-color: #fee2e2;
+  color: #991b1b;
+  border-color: #ef4444;
+}
+
+.priority-high {
+  background-color: #ffedd5;
+  color: #9a3412;
+  border-color: #f97316;
+}
+
+.priority-medium {
+  background-color: #fef3c7;
+  color: #92400e;
+  border-color: #f59e0b;
+}
+
+.priority-low {
+  background-color: #d1fae5;
+  color: #065f46;
+  border-color: #10b981;
+}
+
+/* Button classes */
+.btn-primary {
+  background-color: #008753;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  transition: all 0.3s;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #046c4e;
+  transform: scale(1.05);
+}
+
+.btn-secondary {
+  background-color: #FFC72C;
+  color: black;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  transition: all 0.3s;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border: none;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color: #e6b328;
+  transform: scale(1.05);
+}
+
+/* Input field */
+.input-field {
+  width: 100%;
+  border: 2px solid #d1d5db;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  transition: border-color 0.3s;
+  font-family: inherit;
+}
+
+.input-field:focus {
+  border-color: #008753;
+  outline: none;
+}
+
+/* Language Switcher */
+.language-switcher {
+  background-color: white;
+  border: 2px solid #008753;
+  border-radius: 9999px;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  color: #008753;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.language-switcher:hover {
+  background-color: #008753;
+  color: white;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease-out;
+}
+
+/* Hero section */
+.hero-section {
+  background: linear-gradient(135deg, #008753 0%, #ffffff 50%, #008753 100%);
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #1f2937; /* gray-900 */
+}
+
+p {
+  color: #374151; /* gray-700 */
+}
+
+/* Ensure white text is visible on colored backgrounds */
+.text-white {
+  color: white !important;
+}

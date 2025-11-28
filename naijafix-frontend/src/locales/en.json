@@ -1,0 +1,117 @@
+{
+  "app": {
+    "title": "NaijaFix - Community Issues Reporter",
+    "description": "Report and track community issues across Nigeria",
+    "tagline": "Making Nigeria Better, One Report at a Time"
+  },
+"navigation": {
+    "dashboard": "Dashboard",
+    "reports": "Reports",
+    "createReport": "Create Report",
+    "statistics": "Statistics",
+    "language": "Language",
+    "menu": "Menu"
+  },
+
+  "dashboard": {
+    "welcome": "Welcome to",
+    "subtitle": "Report and track community issues across Nigeria's 36 states",
+    "quickActions": "Quick Actions",
+    "recentReports": "Recent Reports",
+    "viewAll": "View All Reports",
+    "noReports": "No Reports Yet",
+    "createFirstReport": "Create the first report in your community!",
+    "createReport": "Create Report",
+    "actions": {
+      "createReport": "Create Report",
+      "createReportDesc": "Report a new community issue",
+      "viewReports": "View Reports", 
+      "viewReportsDesc": "See all community reports",
+      "seeStats": "Statistics",
+      "seeStatsDesc": "View reports analytics"
+    }
+  },
+  "reports": {
+    "subtitle": "All community reports",
+    "createNew": "Create New Report",
+    "noReports": "No reports found",
+    "noReportsDesc": "There are no community reports yet. Be the first to create one!",
+    "createFirst": "Create First Report"
+  },
+  "createReport": {
+    "subtitle": "Report a new community issue"
+  },
+  "statistics": {
+    "subtitle": "Community reports analytics and insights",
+    "totalReports": "Total Reports",
+    "byCategory": "Reports by Category",
+    "byState": "Top States by Reports",
+    "resolutionRate": "Resolution Rate",
+    "ofReportsResolved": "of reports have been resolved"
+  },
+  "report": {
+    "create": "Create New Report",
+    "title": "Issue Title",
+    "titlePlaceholder": "e.g., Bad Road at Main Street",
+    "description": "Description", 
+    "descriptionPlaceholder": "Describe the issue in detail...",
+    "category": "Category",
+    "location": "Location",
+    "area": "Area/Street",
+    "areaPlaceholder": "e.g., Main Street, Victoria Island",
+    "lga": "LGA",
+    "selectLGA": "Select LGA",
+    "state": "State",
+    "status": "Status",
+    "priority": "Priority",
+    "submit": "Submit Report",
+    "cancel": "Cancel"
+  },
+  "categories": {
+    "Roads": "Roads & Transportation",
+    "Electricity": "Electricity & Power", 
+    "Water": "Water Supply",
+    "Sanitation": "Sanitation & Waste",
+    "Security": "Security & Safety",
+    "Healthcare": "Healthcare",
+    "Education": "Education",
+    "Other": "Other Issues"
+  },
+  "hero": {
+    "stats": "Total Reports"
+  },
+  "status": {
+    "pending": "Pending",
+    "in-progress": "In Progress", 
+    "resolved": "Resolved"
+  },
+  "priority": {
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High", 
+    "urgent": "Urgent"
+  },
+  "buttons": {
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "update": "Update",
+    "tryAgain": "Try Again"
+  },
+  "messages": {
+    "noReports": "No reports yet. Create your first note!",
+    "loading": "Loading...",
+    "creating": "Creating...",
+    "error": "Error loading data",
+    "fillAllFields": "Please fill all required fields!"
+  },
+  "sidebar": {
+    "dashboardDesc": "Overview and quick actions",
+    "reportsDesc": "View all community reports", 
+    "createReportDesc": "Report a new issue",
+    "statisticsDesc": "Analytics and insights",
+    "quickStats": "Quick Stats",
+    "support": "Community Support",
+    "supportDesc": "Working together for better communities"
+  }
+}

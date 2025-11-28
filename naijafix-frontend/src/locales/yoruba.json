@@ -1,0 +1,70 @@
+{
+  "app": {
+    "title": "NaijaFix - Aropo Awọn Iṣẹlẹ Agbegbe",
+    "description": "Ṣe aropo ki o si ṣe ayẹwo awọn iṣẹlẹ agbegbe kariaye Naijiria",
+    "tagline": "Ṣiṣe Naijiria Dara Si, Aropo Kan Ni Akoko"
+  },
+  "hero": {
+    "title": "Ṣe Aropo Awọn Iṣẹlẹ Agbegbe ni Naijiria",
+    "subtitle": "Ran ọ lọwọ lati ṣe agbegbe rẹ dara sii nipa ṣiṣe aropo awọn iṣẹlẹ ti o nilo ifiyesi",
+    "reportButton": "📢 Aropo Tuntun",
+    "stats": "Awọn Aropo Agbegbe"
+  },
+  "report": {
+    "create": "Ṣẹda Aropo Tuntun",
+    "title": "Akọle Iṣẹlẹ",
+    "description": "Apejuwe",
+    "category": "Ẹka",
+    "location": "Ibi",
+    "area": "Agbegbe/Ita",
+    "lga": "LGA",
+    "state": "Ipinle",
+    "status": "Ipo",
+    "priority": "Iṣẹlẹ Pataki",
+    "submit": "Fi Aropo Silẹ",
+    "cancel": "Fagilee"
+  },
+  "buttons": {
+    "edit": "Ṣatunkọ",
+    "delete": "Paarẹ",
+    "save": "Fipamọ",
+    "update": "Imudojuiwọn"
+  },
+  "messages": {
+    "noReports": "Ko si aropo sibẹsibẹ. Jẹ akọkọ lati ṣe aropo iṣẹlẹ kan ni agbegbe rẹ!",
+    "loading": "O n gbẹsẹ...",
+    "error": "Aṣiṣe n gbẹsẹ data"
+  },
+  "language": {
+    "english": "Gẹẹsi",
+    "hausa": "Hausa", 
+    "igbo": "Igbo",
+    "yoruba": "Yoruba"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "reports": "Awọn Aropo",
+    "createReport": "Ṣẹda Aropo",
+    "statistics": "Iṣiro",
+    "language": "Ede"
+  },
+  "dashboard": {
+    "welcome": "Kaabo si",
+    "subtitle": "Ṣe aropo ki o si ṣe ayẹwo awọn iṣẹlẹ agbegbe ni gbogbo awọn ipinle 36 ti Naijiria",
+    "quickActions": "Awọn Iṣe Kia-Kia",
+    "recentReports": "Awọn Aropo Laipe",
+    "viewAll": "Wo Gbogbo Awọn Aropo",
+    "noReports": "Ko Si Aropo Sibẹsibẹ",
+    "createFirstReport": "Ṣẹda aropo akọkọ ni agbegbe rẹ!",
+    "createReport": "Ṣẹda Aropo"
+  },
+  "sidebar": {
+    "dashboardDesc": "Akopọ ati awọn iṣe kia-kia",
+    "reportsDesc": "Wo gbogbo awọn aropo agbegbe", 
+    "createReportDesc": "Ṣe aropo iṣẹlẹ tuntun",
+    "statisticsDesc": "Iṣiro ati oye",
+    "quickStats": "Iṣiro Kia-Kia",
+    "support": "Atilẹyin Agbegbe",
+    "supportDesc": "Ṣiṣẹ papọ fun awọn agbegbe dara si"
+  }
+}
