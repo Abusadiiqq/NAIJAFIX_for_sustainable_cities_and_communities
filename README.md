@@ -68,13 +68,12 @@ text
 - Git
 
 ### Frontend Setup
-```bash
+
 # Navigate to frontend directory
 cd naijafix-frontend
 
 # Install dependencies
 npm install
-
 # Start development server
 npm run dev
 
@@ -110,82 +109,84 @@ PORT=5000
 MONGODB_URI=mongodb://localhost:27017/naijafix
 JWT_SECRET=your-jwt-secret
 NODE_ENV=development
-📊 API Endpoints
-Reports
-GET /api/reports - Get all reports
 
-GET /api/reports/:id - Get single report
+### 📊 API Endpoints
+##Reports
+- **GET /api/reports - Get all reports
 
-POST /api/reports - Create new report
+- **GET /api/reports/:id - Get single report
 
-PUT /api/reports/:id - Update report
+- **POST /api/reports - Create new report
 
-DELETE /api/reports/:id - Delete report
+- **PUT /api/reports/:id - Update report
 
-GET /api/reports/stats - Get reporting statistics
+- **DELETE /api/reports/:id - Delete report
 
-Categories
-GET /api/categories - Get all categories
+- **GET /api/reports/stats - Get reporting statistics
 
-🎨 Features in Detail
-For Citizens
-Easy Reporting: Simple form to report community issues
 
-Track Progress: Monitor report status from pending to resolved
+### Categories
+## GET /api/categories - Get all categories
 
-Location-based: Reports tagged with specific areas and LGAs
+#🎨 Features in Detail
+- **For Citizens
+- **Easy Reporting: Simple form to report community issues
 
-Multiple Categories: Various issue categories for better organization
+- **Track Progress: Monitor report status from pending to resolved
 
-For Administrators
-Dashboard Analytics: Overview of all reports and statistics
+- **Location-based: Reports tagged with specific areas and LGAs
 
-Status Management: Update report progress and priorities
+- **Multiple Categories: Various issue categories for better organization
 
-Geographic Coverage: Reports from all 36 states + FCT
+- **For Administrators
+- **Dashboard Analytics: Overview of all reports and statistics
 
-🌐 Deployment
-Frontend Deployment (Vercel/Netlify)
-bash
+- **Status Management: Update report progress and priorities
+
+- **Geographic Coverage: Reports from all 36 states + FCT
+
+### 🌐 Deployment
+- **Frontend Deployment (Vercel/Netlify)
+- **bash
 # Build the project
-npm run build
+- **npm run build
 
 # Deploy the dist folder to your preferred platform
-Backend Deployment (Railway/Render/Heroku)
-Set environment variables in deployment platform
+- **Backend Deployment (Railway/Render/Heroku)
+- **Set environment variables in deployment platform
 
-Connect your MongoDB database
+- **Connect your MongoDB database
 
-Deploy your backend code
+- **Deploy your backend code
 
-🤝 Contributing
-Fork the repository
+### 🤝 Contributing
+- **Fork the repository
 
-Create your feature branch (git checkout -b feature/AmazingFeature)
+- **Create your feature branch (git checkout -b feature/AmazingFeature)
 
-Commit your changes (git commit -m 'Add some AmazingFeature')
+- **Commit your changes (git commit -m 'Add some AmazingFeature')
 
-Push to the branch (git push origin feature/AmazingFeature)
+- **Push to the branch (git push origin feature/AmazingFeature)
 
-Open a Pull Request
+- **Open a Pull Request
 
-📝 License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+### 📝 License
+- **This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-🙏 Acknowledgments
-Nigerian citizens for community engagement
+### 🙏 Acknowledgments
+- **Nigerian citizens for community engagement
 
-PLP Academy for guidance and support
+- **PLP Academy for guidance and support
 
-Open source community for amazing tools and libraries
+- **Open source community for amazing tools and libraries
 
-📞 Support
-For support, email support@naijafix.ng or create an issue in this repository.
+### 📞 Support
+- **For support, email support@naijafix.ng or create an issue in this repository.
 
-🗺️ Coverage
-Currently serving all 36 Nigerian states plus the Federal Capital Territory (FCT) with plans to expand to local government area-level tracking.
+### 🗺️ Coverage
+- **Currently serving all 36 Nigerian states plus the Federal Capital Territory (FCT) with plans to expand to local government area-level tracking.
 
-Built with ❤️ for Nigerian Communities
-Currently serving all 36 Nigerian states plus the Federal Capital Territory (FCT) with plans to expand to local government area-level tracking.
+- **Built with ❤️ for Nigerian Communities
+- **Currently serving all 36 Nigerian states plus the Federal Capital Territory (FCT) with plans to expand to local government area-level tracking.
 
-Built with ❤️ for Nigerian Communities
+- **Built with ❤️ for Nigerian Communities
