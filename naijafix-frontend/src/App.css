@@ -40,3 +40,6 @@
 .read-the-docs {
   color: #888;
 }
+.golden-text-shadow {
+    text-shadow: 0 2px 4px rgba(234, 179, 8, 0.5);
+}

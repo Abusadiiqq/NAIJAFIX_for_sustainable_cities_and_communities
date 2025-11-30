@@ -80,21 +80,27 @@ const Dashboard = () => {
             <div className="container mx-auto px-6 py-8">
                 {/* Hero Section */}
                 <section className="text-center mb-12">
-                    <h1 className="text-4xl md:text-5xl font-black text-gray-900 mb-4 [text-shadow:_0_2px_8px_rgb(255_255_255_/_60%)]">
-    {t('dashboard.welcome')} <span className="text-green-300">NaijaFix</span>
-</h1>
-                    <p className="text-xl text-white font-semibold max-w-2xl mx-auto drop-shadow-lg">
-                        {t('dashboard.subtitle')}
-                    </p>
+                    <h1 className="text-5xl md:text-6xl font-bold text-yellow-400 mb-4 drop-shadow-lg">
+                        {t('dashboard.welcome')} <span className="text-green-300">NaijaFix</span>
+                    </h1>
+       <p 
+    className="text-xl font-semibold max-w-2xl mx-auto drop-shadow-lg bg-black/30 px-4 py-2 rounded-lg"
+    style={{ color: '#fcd34d' }}
+>
+    {t('dashboard.subtitle')}
+</p>
                 </section>
 
 
                 {/* Quick Actions */}
                 <section className="mb-12">
-                    <h2 className="text-3xl font-bold text-white mb-6 flex items-center drop-shadow-lg">
-                        <span className="mr-3 text-4xl">🚀</span>
-                        {t('dashboard.quickActions')}
-                    </h2>
+            <h2 
+    className="text-3xl font-bold mb-6 flex items-center drop-shadow-lg bg-black/30 px-4 py-2 rounded-lg"
+    style={{ color: 'hsla(0, 0%, 95%, 1.00)' }}
+>
+    <span className="mr-3 text-4xl">🚀</span>
+    {t('dashboard.quickActions')}
+</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         {quickActions.map((action, index) => (
                             <Link
@@ -119,10 +125,13 @@ const Dashboard = () => {
                 {/* Recent Reports Preview */}
                 <section>
                     <div className="flex justify-between items-center mb-6">
-                        <h2 className="text-3xl font-bold text-white flex items-center drop-shadow-lg">
-                            <span className="mr-3 text-4xl">🕒</span>
-                            {t('dashboard.recentReports')}
-                        </h2>
+                        <h2 
+    className="text-3xl font-bold mb-6 flex items-center drop-shadow-lg bg-black/30 px-4 py-2 rounded-lg"
+    style={{ color: 'hsla(0, 0%, 95%, 1.00)' }}
+>
+    <span className="mr-3 text-4xl">🕒</span>
+    {t('dashboard.recentReports')}
+</h2>
                         <Link
                             to="/reports"
                             className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors flex items-center space-x-2 font-bold drop-shadow-lg border-2 border-white"
