@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from '../LanguageSwitcher';
-import DropdownMenu from './DropdownMenu';
+// REMOVE THIS LINE: import DropdownMenu from './DropdownMenu';
 
 const Header = ({ onMenuToggle }) => {
   const { t } = useTranslation();
@@ -37,10 +37,10 @@ const Header = ({ onMenuToggle }) => {
             </Link>
           </div>
 
-          {/* Navigation Menu (Hidden on Larger Screens) */}
-          <div className="lg:hidden">
+          {/* REMOVE THIS ENTIRE SECTION: DropdownMenu for mobile */}
+          {/* <div className="lg:hidden">
             <DropdownMenu />
-          </div>
+          </div> */}
 
           {/* Desktop Navigation Menu */}
           <nav className="hidden lg:flex space-x-1">
@@ -52,11 +52,11 @@ const Header = ({ onMenuToggle }) => {
           </div>
         </div>
 
-        {/* Mobile Navigation */}
-        <div className="lg:hidden pb-2">
+        {/* REMOVE THIS ENTIRE SECTION: Mobile Navigation */}
+        {/* <div className="lg:hidden pb-2">
           <nav className="flex space-x-1 overflow-x-auto">
           </nav>
-        </div>
+        </div> */}
       </div>
     </header>
   );
