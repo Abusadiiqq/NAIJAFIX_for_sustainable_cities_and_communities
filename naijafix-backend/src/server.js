@@ -9,21 +9,19 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// MongoDB Atlas Connection with better error handling
+// MongoDB Atlas Connection
 const connectDB = async () => {
   try {
-    const conn = await mongoose.connect(process.env.MONGODB_URI, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
-
+    // Remove deprecated options for mongoose 7.x
+    const conn = await mongoose.connect(process.env.MONGODB_URI);
+    
     console.log('✅ MongoDB Atlas connected successfully');
     console.log(`📊 Host: ${conn.connection.host}`);
     console.log(`🗄️ Database: ${conn.connection.name}`);
   } catch (error) {
     console.log('❌ MongoDB Atlas connection error:', error.message);
     console.log('💡 Troubleshooting tips:');
-    console.log('   1. Check your MONGODB_URI in .env file');
+    console.log('   1. Check your MONGODB_URI in Render environment variables');
     console.log('   2. Verify MongoDB Atlas cluster is running');
     console.log('   3. Check network access IP whitelist in Atlas');
     console.log('   4. Verify database username/password');
@@ -74,11 +72,15 @@ app.get('/', (req, res) => {
   });
 });
 
+// CRITICAL FIX: Render requires binding to 0.0.0.0, not localhost
 const PORT = process.env.PORT || 5001;
-app.listen(PORT, () => {
+const HOST = '0.0.0.0'; // ← This is the fix for Render
+
+app.listen(PORT, HOST, () => {
   console.log(`\n🎉 ==========================================`);
   console.log(`✅ Server running on port ${PORT}`);
   console.log(`📡 Local: http://localhost:${PORT}`);
+  console.log(`🌐 Network: http://${HOST}:${PORT}`);
   console.log(`🔧 Environment: ${process.env.NODE_ENV || 'development'}`);
   console.log(`🗄️ Database: MongoDB Atlas`);
   console.log(`🌍 Project: Nigerian Community Issues Reporter`);
