@@ -2,6 +2,9 @@
 
 A full-stack web application for reporting and tracking community issues across Nigeria's 36 states and Federal Capital Territory. Empowering citizens to report infrastructure problems and track their resolution.
 
+#  LIVE URL
+https://naijafixed.vercel.app
+
 ## 🌟 Features
 
 ### Frontend (React)
